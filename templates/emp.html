@@ -11,7 +11,7 @@
     
   </head>
   <body>
-    <h1>Employee Management System</h1>
+    <h1>Institute Management System</h1>
 
    
     
@@ -21,9 +21,6 @@
                 <tr>
                      <th scope="col">id</th>
                      <th scope="col">Name</th>
-                     <th scope="col">Address</th>
-                     <th scope="col">Phone</th>
-                     <th scope="col">BirthDate</th>
                      <th scope="col">Department</th>
                      <th scope="col">Salary</th>
                      <th scope="col">Options</th>
@@ -36,9 +33,6 @@
                     <td> {{emp[1]}}</td>
                     <td> {{emp[2]}}</td>
                     <td> {{emp[3]}}</td>
-                    <td> {{emp[4]}}</td>
-                    <td> {{emp[5]}}</td>
-                    <td> {{emp[6]}}</td>
                     <td>
                       <a href = "http://127.0.0.1:5000/update?ID={{emp[0]}}" class=" btn btn-warning">Update</a>
                       <a href = "http://127.0.0.1:5000/delete?ID={{emp[0]}}" class=" btn btn-danger">Delete</a>
